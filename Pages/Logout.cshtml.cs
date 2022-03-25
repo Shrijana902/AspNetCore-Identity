@@ -23,6 +23,7 @@ namespace AspNet_Core_Identity.Pages
                await signInManager.SignOutAsync();
                return RedirectToPage("Login");
            }
+ 
            public IActionResult OnPostDontLogoutAsync()
            {
             
